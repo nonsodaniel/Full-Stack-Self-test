@@ -1,0 +1,262 @@
+
+
+
+.carousel-div{
+    background: url(../assets/carousel.png) no-repeat center center/cover;
+    z-index: 2;
+    height: 65vh;
+}
+
+.header-text{
+    margin-top: 26px;
+}
+.btn-learn{
+    background: rgb(23, 74, 65);
+    border: transparent;
+    width: 140px;
+    height: 48px;
+    outline-color: #174A41;
+}
+
+.btn-started{
+    border: 2px solid white;
+    width: 140px;
+    height: 48px;
+}
+
+.rent-work{
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.card-title-pref{
+    font-size: 18px;
+}
+
+.first-div-fa{
+    margin-top: 23px;
+    font-size: 7vh;
+}
+
+.play-div{
+    height: 35vh;
+    background: #DDF5E2;
+    color: white;
+    margin-top: 50px;
+}
+.fa-play{
+    font-size: 2rem;
+}
+
+.before-benefit{
+    height: 60vh;
+}
+.features-container{
+    margin-top: 10vh;
+    
+}
+
+
+.features-row{
+    height: 160px;
+}
+
+.features-tabs{
+    background: #174A41;
+    color: white;
+}
+
+.features-text{
+font-style: Bold;
+font-size: 20px;
+line-height: 28px;
+}
+
+.achieve1{
+    background: #298473;
+}
+.achieve2{
+    background: #206659;
+}
+.achieve3{
+    background: #174A41;
+}
+
+.text-container{
+    width: 60%;
+    height: 50vh;
+    margin-top: 20vh;
+
+}
+ .work-container .card{
+        background: red;
+         padding: 60px;
+         box-shadow: -2px 2px #eee, 2px 2px #eee
+    }
+
+
+.benefit-pic1{
+    background: url(../assets//house.png)  no-repeat center center/cover;
+}
+.benefit-pic2{
+    background: url(../assets//money.png)  no-repeat center center/cover;
+}
+.benefit-pic3{
+    background: url(../assets//umbrella.jpg)  no-repeat center center/cover;
+}
+.benefit-pic4{
+    background: url(../assets//house.png)  no-repeat center center/cover;
+}
+.make-rent-2-container{
+    margin-top: 60px;
+    height: 24vh;
+}
+
+.make-rent-2-row{
+    height: 24vh;
+   
+}
+
+
+.search{
+   background: #174A41
+}
+.xx{
+   background: #174A41
+}
+.control{
+   background: #174A41
+}
+
+.unique-img{
+    height: 100px;
+    background: url(../assets/unique.png) no-repeat center center/cover;
+    width: 5vh;
+    height: 5vh;
+    
+}
+
+.search-img{
+    height: 100px;
+    background: url(../assets/search.png) no-repeat center center/cover;
+    width: 5vh;
+    height: 5vh;
+    color: white
+    
+}
+.xx-img{
+    height: 100px;
+    background: url(../assets/xx.png) no-repeat center center/cover;
+    width: 5vh;
+    height: 5vh;
+    color: white
+    
+}
+.control-img{
+    height: 100px;
+    background: url(../assets/control.png) no-repeat center center/cover;
+    width: 5vh;
+    height: 5vh;
+    color: white
+    
+}
+.touch-img{
+    background: url(../assets/control.png) no-repeat center center/cover;
+}
+
+.unique-text{
+    transform: translateY(-5vh);
+    color: #174A41
+}
+.search-text{
+    transform: translateY(-5vh);
+    color: white;
+}
+.control-text{
+    transform: translateY(-5vh);
+    color: white;
+}
+.xx-text{
+    transform: translateY(-5vh);
+    color: white;
+}
+.social-section{
+    background: rgb(23, 74, 65);
+    margin-top: 50px;
+
+}
+.social-fa{
+    font-size: 48px;
+    color: white;
+}
+.social-column{
+    height: 25vh;
+}
+
+.sponsors-column{
+    height: 15vh;
+}
+
+.sponsors-column > img{
+    height: inherit;
+    width: 100%;
+    padding: 10px
+}
+
+.launch-image-div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.launch-row{
+    background: #174A41;
+    color: white;
+}
+.launch-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.footer-text{
+    color: white;
+}
+
+.footer-row-style{
+    padding: "10vh 0"
+}
+
+
+
+@media screen and (max-width: 990px) {
+    /* body {
+      display: none
+    } */
+    .work-row{
+        margin-top: 75vh;
+    }
+   
+    .unique-body{
+        margin-top:  15vh;
+    }
+    .benefit-move-property{
+        transform: translateY(24px);
+    }
+    .sponsors-img{
+        width: 20vw;
+    }
+    .sponsors-column > img{
+        padding: 0;
+        height: inherit;
+        width: 120%;
+        object-fit: contain;
+    }
+    .launch-container{
+        margin-top: 45px;
+    }
+    .title-div{
+        overflow: hidden;
+    }
+  }
